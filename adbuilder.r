@@ -21,12 +21,12 @@
 ## Housekeeping - set the basics
 
 # Time Zone
-Sys.setenv(TZ = "America/New_York")
+Sys.setenv(TZ = "America/New_York") # change to whatever is appropriate
 today <- Sys.Date()
 unixtime <- as.character(as.numeric(as.POSIXct(today)))
 
 # Set working directory
-wd <- "/users/cspenn/desktop/"
+wd <- "/PATH/TO/YOUR/DESKTOP/HERE"
 setwd(wd)
 
 # Specify output files
